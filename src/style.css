@@ -1,1 +1,39 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+.card {
+  width: 10rem;
+  height: 15rem;
+  background-color: white;
+  border-radius: 5%;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  font-size: 3rem;
+}
+.red {
+  color: red;
+}
+.topicon {
+  text-align: left;
+  padding-left: 0.5rem;
+  vertical-align: top;
+}
+.bottomicon {
+  text-align: left;
+  vertical-align: top;
+  padding: 0 0 1.2rem 0.5rem;
+  -moz-transform: scale(-1, -1);
+  -webkit-transform: scale(-1, -1);
+  -o-transform: scale(-1, -1);
+  -ms-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+}
+.number-and-letters {
+  text-align: center;
+}
+.card2 {
+  background-color: grey;
+  width: 10rem;
+  height: 15rem;
+}
